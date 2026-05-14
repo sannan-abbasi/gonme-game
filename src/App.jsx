@@ -7,7 +7,7 @@ import angryGnome from "./assets/angrygnome.png";
 import backgroundImg from "./assets/background.png";
 
 import MissionsPage from "./pages/Mission";
-import GamesPage from "./pages/Games/GamesPage";
+import GamesPage from "./pages/games/GamesPage";
 import GnomeLocker from "./pages/GnomeLocker/GnomeLocker";
 import LeaderboardPage from "./pages/Leaderboard/LeaderboardPage";
 
