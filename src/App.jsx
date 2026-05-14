@@ -8,7 +8,7 @@ import backgroundImg from "./assets/background.png";
 
 import MissionsPage from "./pages/Mission";
 import GamesPage from "./pages/games/GamesPage";
-import GnomeLocker from "./pages/GnomeLocker/GnomeLocker";
+import GnomeLocker from "./pages/gnomelocker/GnomeLocker";
 import LeaderboardPage from "./pages/Leaderboard/LeaderboardPage";
 
 import {
