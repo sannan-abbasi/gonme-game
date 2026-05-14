@@ -1,4 +1,4 @@
-import "./gnomelocker.css";
+import "./gnomeLocker.css";
 
 import gnome from "../../assets/happygnome.png";
 import shoes from "../../assets/shoes.png";
