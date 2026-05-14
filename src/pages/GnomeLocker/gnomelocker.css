@@ -1,0 +1,72 @@
+.locker-page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(circle, #1a0f2e, #0b0616);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GNOME CENTER FIX */
+.gnome-center {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+}
+
+.locker-gnome {
+  width: 280px;
+  filter: drop-shadow(0 0 30px purple);
+}
+
+.locker-text {
+  color: gold;
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.orbit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  position: absolute;
+  width: 140px;
+  height: auto;
+  cursor: pointer;
+
+  filter: drop-shadow(0 0 10px rgba(176, 38, 255, 0.4));
+
+  animation: shake 1.5s infinite ease-in-out;
+  display: inline-block;
+}
+
+.item:hover {
+  filter: drop-shadow(0 0 20px gold);
+  transform: scale(1.15);
+}
+@keyframes shake {
+  0%   { transform: translate(0px, 0px) rotate(0deg); }
+  20%  { transform: translate(1px, -1px) rotate(1deg); }
+  40%  { transform: translate(-1px, 1px) rotate(-1deg); }
+  60%  { transform: translate(1px, 1px) rotate(1deg); }
+  80%  { transform: translate(-1px, -1px) rotate(-1deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+/* POSITIONING ITEMS AROUND GNOME */
+.item1 { animation-duration: 1.2s; }
+.item2 { animation-duration: 1.6s; }
+.item3 { animation-duration: 1.3s; }
+.item4 { animation-duration: 1.8s; }
+.item5 { animation-duration: 2s; }
+.item1 { top: 15%; left: 50%; transform: translate(-50%, -50%); }
+.item2 { top: 50%; left: 80%; transform: translate(-50%, -50%); }
+.item3 { top: 85%; left: 50%; transform: translate(-50%, -50%); }
+.item4 { top: 50%; left: 20%; transform: translate(-50%, -50%); }
+.item5 { top: 30%; left: 30%; transform: translate(-50%, -50%); }
+

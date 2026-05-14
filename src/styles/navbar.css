@@ -1,0 +1,34 @@
+.navbar {
+  width: 100%;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffd43b;
+}
+
+.play-btn {
+  background: linear-gradient(
+    135deg,
+    #7b2ff7,
+    #f107a3
+  );
+
+  color: white;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.play-btn:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
