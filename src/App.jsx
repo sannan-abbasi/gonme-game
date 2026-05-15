@@ -17,7 +17,7 @@ import backgroundImg from "./assets/background.png";
 // Pages
 import MissionsPage from "./pages/Mission.jsx";
 import GamesPage from "./pages/games/GamesPage.jsx";
-import GnomeLocker from "./pages/gnomelocker/GnomeLocker.jsx";
+import GnomeLocker from "./pages/gnome-locker/GnomeLocker.jsx";
 import LeaderboardPage from "./pages/Leaderboard/LeaderboardPage.jsx";
 
 function App() {
