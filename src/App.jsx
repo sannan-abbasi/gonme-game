@@ -15,10 +15,10 @@ import angryGnome from "./assets/angrygnome.png";
 import backgroundImg from "./assets/background.png";
 
 // Pages
-import MissionsPage from "./pages/Mission";
-import GamesPage from "./pages/games/GamesPage";
-import GnomeLocker from "./pages/gnomelocker/GnomeLocker";
-import LeaderboardPage from "./pages/Leaderboard/LeaderboardPage";
+import MissionsPage from "./pages/Mission.jsx";
+import GamesPage from "./pages/games/GamesPage.jsx";
+import GnomeLocker from "./pages/gnomelocker/GnomeLocker.jsx";
+import LeaderboardPage from "./pages/Leaderboard/LeaderboardPage.jsx";
 
 function App() {
   const [activePage, setActivePage] = useState("home");
